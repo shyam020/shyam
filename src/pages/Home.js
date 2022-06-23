@@ -56,7 +56,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 m-3">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title fw-bold pb-3">Hobbies</h5>
