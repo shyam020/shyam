@@ -38,7 +38,7 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 my-3">
                                         <div>
                                             <p className="mb-0">Python</p>
                                             <div className="progress">
