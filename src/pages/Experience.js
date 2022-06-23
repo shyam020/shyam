@@ -1,4 +1,7 @@
 import React from "react";
+import {Card} from "react-bootstrap";
+import cert1 from '../images/cert1.jpg'
+import cert2 from '../images/cert2.jpg'
 
 function Experience() {
     return (
@@ -28,6 +31,26 @@ function Experience() {
                             </div>
                         </div>
                     </div> */}
+                    <div id="cert" className="d-flex justify-content-center">
+                    <Card className="mx-3" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={cert1} />
+                        <Card.Body>
+                            <Card.Title>HTML certificate</Card.Title>
+                            <Card.Text>
+                            
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    <Card className="mx-3" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={cert2} />
+                        <Card.Body>
+                            <Card.Title>CSS certificate</Card.Title>
+                            <Card.Text>
+                            
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
                 </div>
             </div>
         </React.Fragment>
