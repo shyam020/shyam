@@ -9,7 +9,7 @@ function Header() {
                 <Container>
                     <Navbar.Brand as={Link} to={'/'}>
                         {/* <img src={logo} width={25} alt="logo" /> */}
-                        Shyam Patel
+                        Shyam 
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
